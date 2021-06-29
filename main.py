@@ -51,9 +51,9 @@ async def sticker(bot, message):
       chat_id = str(message.chat.id)
       count = await bughunter0.get_chat_members_count(chat_id)
       if count == 5:
-                    message.send_sticker(chat_id,"CAACAgEAAxkBAAIC22DZazRZxcyKpsz8iNqOphiSrEdBAAJzAQACW9YqGMglMndHeNbkHgQ")
+                    bot.send_sticker(chat_id,"CAACAgEAAxkBAAIC22DZazRZxcyKpsz8iNqOphiSrEdBAAJzAQACW9YqGMglMndHeNbkHgQ")
       elif count == 7 :
-                    message.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
 
 bughunter0.run()
 
