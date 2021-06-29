@@ -46,7 +46,7 @@ async def ping(bot, message):
     time_taken_s = (end_t - start_t) * 1000
     await rm.edit(f"Pong!\n{time_taken_s:.3f} ms")
 
-bughunter0.on_message(filters.new_chat_member & (filters.group | filters.channel))
+@bughunter0.on_message(filters.new_chat_member & (filters.group | filters.channel))
 async def sticker(bot, message, chat):
  try :
       count = bughunter0.get_chat_members_count(chat_id)
