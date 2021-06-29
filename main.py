@@ -1,9 +1,7 @@
-import os , glob
+import os 
 from os import error
 import logging
 import pyrogram
-import time
-import math
 from decouple import config
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
@@ -50,10 +48,78 @@ async def ping(bot, message):
 async def sticker(bot, message):
       chat_id = str(message.chat.id)
       count = await bughunter0.get_chat_members_count(chat_id)
-      if count == 5:
-                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIC22DZazRZxcyKpsz8iNqOphiSrEdBAAJzAQACW9YqGMglMndHeNbkHgQ")
+      if count == 3:
+                    await bot.send_sticker(chat_id,"CAACAgUAAxkBAAJvHmDbM3JkdZxptNLZ5fsMkfx0ldRyAAL1AgACufE4VgHHxPJeyWOKHgQ")
+      elif count == 5:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
       elif count == 7:
                     await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 10:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 25:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 30:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAALABWDbNB7gPjkDzwtQ6Cs5nvhb0wwZAAJzAQACW9YqGMglMndHeNbkIAQ")
+      elif count == 35:
+                    await bot.send_sticker(chat_id,"CAACAgUAAxkBAALAH2DbNKfjQOZnjBt6v7Ec2gQiw73XAALDAgACdhE4VlXq3LxwIYXVIAQ")
+      elif count == 40:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAALABmDbNB4JXht6BxaWYeZBEbrCXTm7AAJ1AQACW9YqGAqMjpiJaz52IAQ")
+      elif count == 45:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 50:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 55:
+                    await bot.send_sticker(chat_id,"CAACAgUAAxkBAALAImDbNKjVte3znXJlKUKAWNppbLFdAAJSAwACI9U5VugjgalV5M1EIAQ")
+      elif count == 60:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 65:
+                    await bot.send_sticker(chat_id,"CAACAgUAAxkBAALAJGDbNKnFe63T7dvQNpo3fQzJ3ByRAAKjBAAC2DoxVo0AAfZxo3XDXiAE")
+      elif count == 70:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 75:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 80:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAALADmDbNEky6eEvIdpeoFeyej1ITyjHAAJ9AQACW9YqGIGH0t8XkK5rIAQ")
+      elif count == 85:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 90:
+                    await bot.send_sticker(chat_id,"CAACAgUAAxkBAALAKGDbNKxw5kOeM5vIuJNVhc8QfdyvAAJDBAACVQk5VkLLUBVbCmAFIAQ")
+      elif count == 95:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 99:
+                    await bot.send_sticker(chat_id,"CAACAgUAAxkBAALAKmDbNK493tFvInPAZbRkRxI7A94mAAK8AwACeFQ4VoQ3RqKdVqA-IAQ")
+      elif count == 100:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAALAR2DbNZK1cN3x1puKuLpFV7eELnLGAAKBAQACW9YqGJuh7P1hvjLlIAQ")
+      elif count == 110:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 120:
+                    await bot.send_sticker(chat_id,"CAACAgUAAxkBAALAWmDbNkJveb8bEh9AmgRmnaLwv7sMAAKRAwACnOo4VjyzYcbK44llIAQ")
+      elif count == 130:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 140:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 150:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAALASWDbNZTcEdbBZLDTWJUUyI28t8GFAAKDAQACW9YqGCcn5HlB2BFHIAQ")
+      elif count == 160:
+                    await bot.send_sticker(chat_id,"CAACAgUAAxkBAALAXWDbNkZQifrUCZuiDVbgzVFUv3ZdAAIDAwACf7k5VsRb3FPkL5P2IAQ")
+      elif count == 170:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 180:
+                    await bot.send_sticker(chat_id,"CAACAgUAAxkBAALAX2DbNkfJxEL9LCFjlPnmP2wuQteHAAIuBAACS0k5Vi96vtzMVBELIAQ")
+      elif count == 190:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 199:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 200:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAALAS2DbNZVlilesDRpcaTHL8xxE7vSLAAKFAQACW9YqGGcqtjuLAj1EIAQ")
+      elif count == 210:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      
+
+
+
+
+
 
 bughunter0.run()
 
