@@ -46,13 +46,13 @@ async def ping(bot, message):
     time_taken_s = (end_t - start_t) * 1000
     await rm.edit(f"Pong!\n{time_taken_s:.3f} ms")
 
-@bughunter0.on_message(filters.new_chat_member & (filters.group | filters.channel))
+@bughunter0.on_message(filters.new_chat_members & (filters.group | filters.channel))
 async def sticker(bot, message, chat):
  
       count = bughunter0.get_chat_members_count(chat_id)
-      if count is 5:
+      if count == 5:
                     message.send_sticker(chat_id,"CAACAgEAAxkBAAIC22DZazRZxcyKpsz8iNqOphiSrEdBAAJzAQACW9YqGMglMndHeNbkHgQ")
-      elif count is 7 :
+      elif count == 7 :
                     message.send_sticker(chat_id,"AgADQQYAAmMr4gk")
 
 bughunter0.run()
