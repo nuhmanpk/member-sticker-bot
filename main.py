@@ -48,7 +48,7 @@ async def ping(bot, message):
 
 @bughunter0.on_message(filters.new_chat_member & (filters.group | filters.channel))
 async def sticker(bot, message, chat):
- try :
+ 
       count = bughunter0.get_chat_members_count(chat_id)
       if count is 5:
                     message.send_sticker(chat_id,"CAACAgEAAxkBAAIC22DZazRZxcyKpsz8iNqOphiSrEdBAAJzAQACW9YqGMglMndHeNbkHgQ")
