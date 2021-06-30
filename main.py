@@ -46,7 +46,7 @@ async def start_pr(bot, update):
     )
 
 @bughunter0.on_message(filters.command(["start"]) & filters.group)
-async def start_gp(bot, update, message):
+async def start_gp(bot, message):
    txt= await message.reply_text("Group Added")
    if can_send_stickers is False:
       txt.edit("Need Permission to send sticker")
