@@ -2,6 +2,7 @@ import os
 from os import error
 import logging
 import pyrogram
+import time
 from decouple import config
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
@@ -36,7 +37,6 @@ ADDME_BUTTON = InlineKeyboardMarkup(
 @bughunter0.on_message(filters.command(["start"]) & filters.private)
 async def start_pr(bot, update):
     text = START_STRING.format(update.from_user.mention)
-    reply_markup = CHANNEL_BUTTON 
     reply_markup = ADDME_BUTTON
     await update.reply_text(
         text=text,
@@ -47,10 +47,16 @@ async def start_pr(bot, update):
 
 @bughunter0.on_message(filters.command(["start"]) & filters.group)
 async def start_gp(bot, message):
-   txt= await message.reply_text("Group Added")
-   if can_send_stickers is False:
-      txt.edit("Need Permission to send sticker")
-
+   txt= await message.reply_text("Need Permission to Send sticker")
+   reply_markup = CHANNEL_BUTTON
+  # if can_send_stickers is False:
+   txt.edit("I need Admin rights to perform this Action")
+   await update.reply_text(
+        text=text,
+        disable_web_page_preview=True,
+        reply_markup=reply_markup,
+        quote=True
+    )
 
 @bughunter0.on_message(filters.command(["ping"]))
 async def ping(bot, message):
