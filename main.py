@@ -36,7 +36,7 @@ ADDME_BUTTON = InlineKeyboardMarkup(
 @bughunter0.on_message(filters.command(["start"]) & filters.private)
 async def start_pr(bot, update):
     text = START_STRING.format(update.from_user.mention)
-    reply_markup = JOIN_BUTTON + ADDME_BUTTON
+    reply_markup = CHANNEL_BUTTON + ADDME_BUTTON
     await update.reply_text(
         text=text,
         disable_web_page_preview=True,
