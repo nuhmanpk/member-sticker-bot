@@ -203,15 +203,15 @@ async def sticker(bot, message):
       elif count == 1200:
                     await bot.send_sticker(chat_id,"CAACAgEAAxkBAALA6WDbO1TxfZyF69PzmCw7nsrB2LDvAAKnAQACW9YqGEVp0JPc4nO6IAQ")
       elif count == 1300:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIE52DciNL-2hlKIz-225JCVozKD7SCAAKoAQACW9YqGLjrkXe6ArJJHgQ")
       elif count == 1400:
                     await bot.send_sticker(chat_id,"CAACAgEAAxkBAALA62DbO1YL1arJf9zVgdTGIVB7MUGhAAKpAQACW9YqGAWw3fw07KjYIAQ")
       elif count == 1500:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIE6GDciT3DrSed3KGLqX1rVcPwU_xuAAKqAQACW9YqGN0Vs6wobkM7HgQ")
       elif count == 1600:
                     await bot.send_sticker(chat_id,"CAACAgEAAxkBAALA7WDbO1jGcxdqGAVsFhsXKoMp1epDAAKrAQACW9YqGLsCrwgNIGYkIAQ")
       elif count == 1700:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIE6WDciVyqWjpKkMINJiKpYicFwXyOAAKsAQACW9YqGDw9w7xAMVc2HgQ")
       elif count == 1800:
                     await bot.send_sticker(chat_id,"CAACAgEAAxkBAALA72DbO1jWqU4PWKin9Bp9YEAZVnqQAAKtAQACW9YqGKEnAe3tZlvHIAQ")
       elif count == 1900:
@@ -219,30 +219,29 @@ async def sticker(bot, message):
       elif count == 2000:
                     await bot.send_sticker(chat_id,"CAACAgEAAxkBAALA8WDbO1lSjFdU0zOJsCxglr41pTVOAAKvAQACW9YqGPFJNraaGLBkIAQ")
       elif count == 2100:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIE6mDciXh6JuJ1QMSEXVksP0Fuw8oaAAKwAQACW9YqGFPovfk8HR_fHgQ")
       elif count == 2200:
                     await bot.send_sticker(chat_id,"CAACAgEAAxkBAALBQmDbPPPsIgABUtrgFfZsu7GdAAEUxQYAArEBAAJb1ioYog7dqaYf2M0gBA")
       elif count == 2300:
                     await bot.send_sticker(chat_id,"CAACAgEAAxkBAALBQ2DbPPRsp7QrM-wQBgHBb0SZzl13AAKyAQACW9YqGDH2xakhpikbIAQ")
       elif count == 2400:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIE62Dcimptq28z1ZRWDJg5oP513hdlAAKzAQACW9YqGEXNpSVgfaxQHgQ")
       elif count == 2500:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIE7GDcinzSnQ5zQ5cJ2qjrlvZZMQEbAAK0AQACW9YqGNfPUT-wLVZfHgQ")
       elif count == 2600:
                     await bot.send_sticker(chat_id,"CAACAgEAAxkBAALBRmDbPPXuU7h3tgaF1PEGHUtR4jp0AAK1AQACW9YqGIrf25Ws6cZgIAQ")
-      
       elif count == 2700:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIE-2Dcir1OhXW6ogrw3uf_Nn6HO-GYAAK2AQACW9YqGEqRGCn0L8j0HgQ")
       elif count == 2800:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIE_GDcis2We8LY2R89ICjDj1NyMauzAAK3AQACW9YqGGPdw7iHyjmZHgQ")
       elif count == 2900:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIE_WDciu5e52XCAf_UzaZPvltnutPNAAK4AQACW9YqGPKt5abxW-lJHgQ")
       elif count == 3000:
                     await bot.send_sticker(chat_id,"CAACAgEAAxkBAALBOmDbPKJTEw96snijk3zWDju5o0cwAAK5AQACW9YqGNTV9iTuJqtXIAQ")
       elif count == 3100:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIE_2DcixPJFDqIcErYXTxAy9PTdwwGAAK6AQACW9YqGO65_NqjiZU3HgQ")
       elif count == 3200:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFAAFg3IskT3g2CtuSoI0hn4nqKxMB2QACuwEAAlvWKhho36LfXBFaIh4E")
       elif count == 3300:
                     await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
       elif count == 3400:
