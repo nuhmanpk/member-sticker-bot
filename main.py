@@ -45,7 +45,7 @@ async def start_pr(bot, update):
         quote=True
     )
 
-bughunter0.on_message(filters.command(["start"]) & filters.group)
+@bughunter0.on_message(filters.command(["start"]) & filters.group)
 async def start_gp(bot, update):
    txt= await message.reply_text("Group Added")
    if can_send_stickers is False:
