@@ -46,7 +46,7 @@ async def start_pr(bot, update):
     )
 
 @bughunter0.on_message(filters.command(["start"]) & filters.group)
-async def start_gp(bot, message, update):
+async def start_gp(message, update):
    txt= await message.reply_text("Need Permission to Send sticker")
    reply_markup = CHANNEL_BUTTON
   # if can_send_stickers is False:
