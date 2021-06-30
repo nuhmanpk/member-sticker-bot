@@ -5,7 +5,7 @@ import pyrogram
 from decouple import config
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from pyrogram.types import User, Message, Sticker, Document
+from pyrogram.types import User, Message, Sticker, Document, ChatMember
 
     
 bughunter0 = Client(
@@ -15,26 +15,41 @@ bughunter0 = Client(
     api_hash = os.environ["API_HASH"]
 )
 
-START_STRING = """ Hi {}, I'm Sticker Bot. 
-Sends Relevant Thankyou Sticker in Groups and Channel"""
+START_STRING = """ Hi {}, I'm Member Sticker Bot. 
+ I Can Sends Relevant Thankyou Sticker in Groups and Channel
+Nothing to Do here !! ADD ME TO A GROUP THEN TRIGGER ME
+"""
 
 
-JOIN_BUTTON = InlineKeyboardMarkup(
+CHANNEL_BUTTON = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('↗ Join Here ↗', url='https://t.me/BughunterBots')
         ]]
     )
+ADDME_BUTTON = InlineKeyboardMarkup(
+        [[
+        InlineKeyboardButton('↗ ADD ME TO A GROUP ↗', url="t.me/member_sticker_bot?startgroup=true")
+        ]]
+    )
 
-@bughunter0.on_message(filters.command(["start"]))
-async def start(bot, update):
+
+@bughunter0.on_message(filters.command(["start"]) & filters.private)
+async def start_pr(bot, update):
     text = START_STRING.format(update.from_user.mention)
-    reply_markup = JOIN_BUTTON
+    reply_markup = JOIN_BUTTON + ADDME_BUTTON
     await update.reply_text(
         text=text,
         disable_web_page_preview=True,
         reply_markup=reply_markup,
         quote=True
     )
+
+bughunter0.on_message(filters.command(["start"]) & filters.group)
+async def start_gp(bot, update):
+   txt= await message.reply_text("Group Added")
+   if can_send_stickers is False:
+      txt.edit("Need Permission to send sticker")
+
 
 @bughunter0.on_message(filters.command(["ping"]))
 async def ping(bot, message):
