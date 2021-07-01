@@ -52,10 +52,10 @@ async def start_gp(bot, update):
   # if can_send_stickers is False:
    await message.edit("I need Admin rights to perform this Action")
    await update.reply_text(
-       
-        disable_web_page_preview=True,
-        reply_markup=reply_markup,
-        quote=True
+        text = message,
+        disable_web_page_preview = True,
+        reply_markup = reply_markup,
+        quote = True
     )
 
 @bughunter0.on_message(filters.command(["ping"]))
