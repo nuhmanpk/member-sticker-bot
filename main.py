@@ -25,7 +25,7 @@ START_STRING_GROUP = """ **I need Admin rights to Send sticker in {},**
 
 `If Done Neglect it !!`
 
-""""
+"""
 
 
 CHANNEL_BUTTON = InlineKeyboardMarkup(
