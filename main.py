@@ -16,10 +16,15 @@ bughunter0 = Client(
     api_hash = os.environ["API_HASH"]
 )
 
-START_STRING = """ Hi {}, I'm Member Sticker Bot. 
+START_STRING_PRIVATE = """ Hi {}, I'm Member Sticker Bot. 
  I Can Sends Relevant Thankyou Sticker in Groups and Channel
 Nothing to Do here !! ADD ME TO A GROUP THEN TRIGGER ME
 """
+
+START_STRING_GROUP = """ **I need Admin rights to Send sticker in {},**
+`If Done Neglect it !!`
+
+""""
 
 
 CHANNEL_BUTTON = InlineKeyboardMarkup(
@@ -35,8 +40,8 @@ ADDME_BUTTON = InlineKeyboardMarkup(
 
 
 @bughunter0.on_message(filters.command(["start"]) & filters.private)
-async def start_pr(bot, update):
-    text = START_STRING.format(update.from_user.mention)
+async def start_private(bot, update):
+    text = START_STRING_PRIVATE.format(update.from_user.mention)
     reply_markup = ADDME_BUTTON
     await update.reply_text(
         text=text,
@@ -45,18 +50,15 @@ async def start_pr(bot, update):
         quote=True
     )
 
-@bughunter0.on_message(filters.command(["start"]) & filters.group)
-async def start_gp(bot, update):
-   message = await update.reply_text("Need Permission to Send sticker")
-   
-  # if can_send_stickers is False:
-   await message.edit("I need Admin rights to perform this Action")
-   reply_markup = CHANNEL_BUTTON
-   await update.reply_text(
-        text = message,
-        disable_web_page_preview = True,
-        reply_markup = reply_markup,
-        quote = True
+@bughunter0.on_message((filters.command(["start"]) & filters.group) | filters.regex)
+async def start_group(bot, update):
+    text = START_STRING_GROUP.format(update.chat.title)
+    reply_markup = ADDME_BUTTON
+    await update.reply_text(
+        text=text,
+        disable_web_page_preview=True,
+        reply_markup=reply_markup,
+        quote=True
     )
 
 @bughunter0.on_message(filters.command(["ping"]))
