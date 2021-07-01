@@ -53,7 +53,7 @@ async def start_private(bot, update):
 @bughunter0.on_message((filters.command(["start"]) & filters.group) | filters.regex)
 async def start_group(bot, update):
     text = START_STRING_GROUP.format(update.chat.title)
-    reply_markup = ADDME_BUTTON
+    reply_markup = CHANNEL_BUTTON
     await update.reply_text(
         text=text,
         disable_web_page_preview=True,
