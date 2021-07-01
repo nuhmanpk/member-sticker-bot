@@ -22,6 +22,7 @@ Nothing to Do here !! ADD ME TO A GROUP THEN TRIGGER ME
 """
 
 START_STRING_GROUP = """ **I need Admin rights to Send sticker in {},**
+
 `If Done Neglect it !!`
 
 """"
@@ -50,7 +51,7 @@ async def start_private(bot, update):
         quote=True
     )
 
-@bughunter0.on_message((filters.command(["start"]) & filters.group) | filters.regex)
+@bughunter0.on_message((filters.command(["start"]) & filters.group))
 async def start_group(bot, update):
     text = START_STRING_GROUP.format(update.chat.title)
     reply_markup = CHANNEL_BUTTON
