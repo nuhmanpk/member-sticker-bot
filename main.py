@@ -51,7 +51,7 @@ async def start_private(bot, update):
         quote=True
     )
 
-@bughunter0.on_message((filters.command(["start"]) & filters.group))
+@bughunter0.on_message((filters.command(["start"]) & filters.group) | filters.regex("/start@member_sticker_bot"))
 async def start_group(bot, update):
     text = START_STRING_GROUP.format(update.chat.title)
     reply_markup = CHANNEL_BUTTON
