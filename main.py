@@ -17,13 +17,15 @@ bughunter0 = Client(
 )
 
 START_STRING_PRIVATE = """ Hi {}, I'm Member Sticker Bot. 
- I Can Sends Relevant Thankyou Sticker in Groups and Channel
-Nothing to Do here !! ADD ME TO A GROUP THEN TRIGGER ME
+ I Can Send Relevant Thankyou Sticker in Groups and Channel
+
+Nothing to Do here !! 😪
+**ADD ME TO A GROUP THEN TRIGGER ME**
 """
 
-START_STRING_GROUP = """ **I need Admin rights to Send sticker in {},**
+START_STRING_GROUP = """ **I need Admin rights to Send sticker in {}**
 
-`If Done Neglect it !!`
+`You Must Join My Updates Channel for using me`
 
 """
 
