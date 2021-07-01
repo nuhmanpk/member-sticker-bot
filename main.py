@@ -249,28 +249,124 @@ async def sticker(bot, message):
       elif count == 3200:
                     await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFAAFg3IskT3g2CtuSoI0hn4nqKxMB2QACuwEAAlvWKhho36LfXBFaIh4E")
       elif count == 3300:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFOGDd3CKAe9hLi0gOfRZO_xQH2i2lAAK8AQACW9YqGDhjoXmI779cHgQ")
       elif count == 3400:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFL2Dd3AU5jLwjOV8onJ75EegmqLAXAAK9AQACW9YqGDwxkTZBXKotHgQ")
       elif count == 3500:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFO2Dd3E-1uwE25sHnjYU_UBtqfkztAAKPAgACb8FkFLFEIXI21CkuHgQ")
       elif count == 3600:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFMWDd3GwevbENR2p8x78GokaYYteqAAK_AQACW9YqGPVRJh07Zpn5HgQ")
       elif count == 3700:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFMmDd3H7wtAGYQi6TywG6UatvlkDSAALAAQACW9YqGHoZ0ubp8M5OHgQ")
       elif count == 3800:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFM2Dd3JsusEfodZm9O-u5cRqrdcjQAALBAQACW9YqGPWMatfdz1KnHgQ")
       elif count == 3900:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFNGDd3K9cSMHBZfPbkEEBLzv8rEq-AALCAQACW9YqGPC3vxs5FRdwHgQ")
       elif count == 4000:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFNWDd3MvRlt1qclu1i0D2GXFeyXFwAALDAQACW9YqGOZMAlkiSrFOHgQ")
       elif count == 4100:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFSWDd3uS5fAkTfAWTAUH2Gl4XG7NbAAKgAgACW9YqGAABHHE3YBc1dR4E")
       elif count == 4200:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFSmDd3vh7mhp3yGHLKwG14ryNdxGGAAKhAgACW9YqGLxjAjd06-geHgQ")
+      elif count == 4300:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFS2Dd3wvdAq0RJH1-WvnOhDuh1-UlAAKiAgACW9YqGAs0uI0YFeglHgQ")
+      elif count == 4400:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFTGDd3x-8VSY7cqq63Gr5EC-RXuQzAAKjAgACW9YqGK8N7fDG_-R7HgQ")
+      elif count == 4500:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFTWDd3zJadmfYTNzyrmo_wf6szgWQAAKRAgACb8FkFCnulLRifUoPHgQ")
+      elif count == 4600:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFTmDd30Ws7gdD-0JgChN79EF7B3TOAAKlAgACW9YqGJGhk_wPK6TUHgQ")
+      elif count == 4700:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFT2Dd327zVRufqW_U218_V-anPww5AAKmAgACW9YqGAiNoWri8QjDHgQ")
+      elif count == 4800:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFUGDd34e8Iui7e1RKVNlRGA3d1VnHAAKnAgACW9YqGKIqhLomiwKjHgQ")
+      elif count == 4900:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFUWDd35xqS99ZxWM5puSPHNeIFLmUAAKoAgACW9YqGDO0wPQ5CT0eHgQ")
+      elif count == 5000:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFUmDd37NaW8s7XgLx2f25f6lg-9oCAAKmAgACb8FkFAABmvRInkQq1B4E")
+      elif count == 5100:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFU2Dd384atosoiX0IPg7GgALyqRhRAAKqAgACW9YqGEgUpy_SuQxeHgQ")
+      elif count == 5200:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFVGDd3-OmeiB3oj26tfe9BexkwYyKAAKrAgACW9YqGF-T9qG5zmhYHgQ")
+      elif count == 5300:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFVWDd3_dmZe7YxWJY-bRQnOs1eBUhAAKsAgACW9YqGAABeyF9Zt_WQB4E")
+      elif count == 5400:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFVmDd4A1rbNqSeaOMHGO9zEJoQHX_AAKtAgACW9YqGJW4byYrekp8HgQ")
+      elif count == 5500:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFV2Dd4C1X58dj_CS85Qcl1GDmIeiPAAKnAgACb8FkFHy9dkRdqy85HgQ")
+      elif count == 5600:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFWGDd4FBfJBNWByT7YdWKn8mbs2z3AAKvAgACW9YqGKlj4NZI7n8HHgQ")
+      elif count == 5700:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFWWDd4GA0aJCOjuCMO7Di9a0gy58hAAKwAgACW9YqGGiUAAEP_4abXB4E")
+      elif count == 5800:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFWmDd4Hgl5rw5jb7XxzchAsp97QavAAKxAgACW9YqGN7rbwt5WzvLHgQ")
+      elif count == 5900:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFW2Dd4KQ2d-yzM1xl9NLqEwzGuSzeAAKyAgACW9YqGHvPdYKQ9kUAAR4E")
+      elif count == 6000:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFXGDd4LaeggTjeRls3th9hhomi7NQAAKSAgACb8FkFO-7G5rKq-OGHgQ")
+      elif count == 6100:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFXWDd4NbSzB_FDXBBgL_r3HRDdzexAAK0AgACW9YqGBeKMqaKD2KLHgQ")
+      elif count == 6200:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFXmDd4OqE-cYU2JkdIV_UtyXsJZcYAAK1AgACW9YqGNlkkYwmNHDCHgQ")
+      elif count == 6300:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFX2Dd4P1zmE8dsJRQE5_hNRba1iadAAK2AgACW9YqGHSmP4mFnWj6HgQ")
+      elif count == 6400:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFYGDd4ScV5lChuwrhrHYqXeqHZmMIAAK3AgACW9YqGCHwELlT4T4uHgQ")
+      elif count == 6500:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFYWDd4T2wlK1Ko7CqMkFezv-9SuPCAAKTAgACb8FkFIyO8XGfp2-LHgQ")
+      elif count == 6600:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFYmDd4VVM-TcRPIrZ2E4hUZsOoeSuAAK5AgACW9YqGIs_QwiYQjVSHgQ")
+      elif count == 6700:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFY2Dd4WiVmQeTVYvhFebLnbaJWEckAAK6AgACW9YqGGTX9sEcJ7vsHgQ")
+      elif count == 6800:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFZGDd4XykR02p-dsWp2Q0FosXVZgtAAK7AgACW9YqGLxacVedeCH7HgQ")
+      elif count == 6900:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFZWDd4ZNQMeW5T3AGJ7t_SeISKIRcAAK8AgACW9YqGN7w5F87AaH_HgQ")
+      elif count == 7000:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFZmDd4aVplUsNVhTHmgRMQ6W9_WJ6AAKUAgACb8FkFIxl1Y3Zh7DUHgQ")
+      elif count == 7100:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFZ2Dd4bgjdYswN_jjcXFyEe5toFn4AAK-AgACW9YqGOjrbmCID2WcHgQ")
+      elif count == 7200:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFaGDd4dpocwLfH_xywgT2myouDiCeAAK_AgACW9YqGM8zZPjcoWXcHgQ")      
+      elif count == 7300:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFaWDd4e7cN_MKrTbuN1lqa-SsYBOXAALAAgACW9YqGEJEKq5tgeqxHgQ")
+      elif count == 7500:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFamDd4gutFBT-422Bq7m5-LmZghERAAKWAgACb8FkFDJuVxkIH49nHgQ")
+      elif count == 8000:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFa2Dd4thoRujUXkfDIibEdPEdHEqHAAIJAwACW9YqGK5V-iQ8HWU3HgQ")
+      elif count == 8500:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFbGDd4uyUrJWp69o8Y9S0TDcyvaTHAAIKAwACW9YqGO9Zs1209EcXHgQ")
+      elif count == 9000:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFbWDd4x1G_DzeQGaE1gNWQ3ghvm9nAAILAwACW9YqGGTOL1FdSBRYHgQ")
+      elif count == 9500:
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFbmDd4zICYzggW6MLGHZl0c4h_PNRAAIMAwACW9YqGNzaIZjGU3xAHgQ")
+      elif count == 10000:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 11000:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 12000:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 13000:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 14000:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 15000:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 16000:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 17000:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 18000:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 19000:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 20000:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == 25000:
+                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+      elif count == :
                     await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
       
-
-
 
 
 
