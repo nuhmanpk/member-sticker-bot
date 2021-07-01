@@ -48,9 +48,10 @@ async def start_pr(bot, update):
 @bughunter0.on_message(filters.command(["start"]) & filters.group)
 async def start_gp(bot, update):
    message = await update.reply_text("Need Permission to Send sticker")
-   reply_markup = CHANNEL_BUTTON
+   
   # if can_send_stickers is False:
    await message.edit("I need Admin rights to perform this Action")
+   reply_markup = CHANNEL_BUTTON
    await update.reply_text(
         text = message,
         disable_web_page_preview = True,
