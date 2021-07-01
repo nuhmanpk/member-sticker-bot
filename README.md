@@ -10,6 +10,6 @@ A telegram bot Which sends Thank You Sticker to Members in channel and Group at 
 </center>
 
 # Credits
-[Program](https://pyrogram.org)
-[Pyrogram Inn](https://t.me/pyrogramchat)
+[Program](https://pyrogram.org) <br>
+[Pyrogram Inn](https://t.me/pyrogramchat) <br>
 [My Self](github.com/bughunter0) for Creating [Sticker BoT](https://github.com/BugHunterCodeLabs/Sticker-Bot) to Return Json
