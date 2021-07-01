@@ -364,7 +364,7 @@ async def sticker(bot, message):
                     await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
       elif count == 25000:
                     await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
-      elif count == :
+      elif count == 30000:
                     await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
       
 
