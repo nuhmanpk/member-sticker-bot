@@ -83,7 +83,7 @@ async def sticker(bot, message):
       elif count == 7:
                     await bot.send_sticker(chat_id,"CAACAgUAAxkBAAID4mDbTx5XeQc2RtMFW6exz6Mt34OBAALdAgAC7f84ViojLrLihZXFHgQ")
       elif count == 10:
-                    await bot.send_sticker(chat_id,"CAACAgUAAxkBAAIDyWDbTa8QqPLlVGN22VI0M7Pr0nqMAALdAgAC7f84ViojLrLihZXFHgQ")
+                    await bot.send_sticker(chat_id,"CAACAgUAAxkBAALDkmDfFenLkQH\_ZI9aJqlPg3C6jfEHAAIuAwAC4aMxVoSmRmZmbGnfIAQ")
       elif count == 20:
                     await bot.send_sticker(chat_id,"CAACAgUAAxkBAAIFvWDd5xzyf5AhAkh686y-04RXf-WFAAIyAwACtjQ5Vl_xGgHnFbS4HgQ")      
       elif count == 25:
