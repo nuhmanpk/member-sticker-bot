@@ -72,8 +72,9 @@ async def ping(bot, message):
     time_taken_s = (end_t - start_t) * 1000
     await rm.edit(f"Pong!\n{time_taken_s:.3f} ms")
 
-@bughunter0.on_message(filters.new_chat_members & (filters.group | filters.channel))
-async def sticker(bot, message):
+@bughunter0.on_message(filters.new_chat_members & filters.group)
+async def sticker_group(bot, message):
+   try:
       chat_id = str(message.chat.id)
       count = await bughunter0.get_chat_members_count(chat_id)
       if count == 3:
@@ -388,6 +389,13 @@ async def sticker(bot, message):
       else : 
             await message.reply_text("Unexpected Error Occurred !!! \n Contact @BugHunterBots")
 
+   except 403 CHAT_SEND_STICKERS_FORBIDDE as error :
+            await message.reply("@admins , \nAs per Your Group Permission Members of This Group Can't send Stickers to this Chat (`I'm a Member, Not an Admin`) .\n**To Solve this Issue add me as Admin Or Give permission to send stickers in the Chat** \n\n\n ©@BugHunterBots")
+
+
+@bughunter0.on_message(filters.command([start]) & (filters.new_chat_members & filters.channel))
+async def sticker_channel(bot, message):
+ await message.reply("We are working this Feature, Will Available soon...")
 
 bughunter0.run()
 
