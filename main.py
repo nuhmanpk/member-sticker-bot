@@ -393,7 +393,7 @@ async def sticker_group(bot, message):
             await message.reply("@admins , \nAs per Your Group Permission Members of This Group Can't send Stickers to this Chat (`I'm a Member, Not an Admin`) .\n**To Solve this Issue add me as Admin Or Give permission to send stickers in the Chat** \n\n\n ©@BugHunterBots")
 
 
-@bughunter0.on_message(filters.command([start]) & (filters.new_chat_members & filters.channel))
+@bughunter0.on_message(filters.command(["start"]) & (filters.new_chat_members & filters.channel))
 async def sticker_channel(bot, message):
  await message.reply("We are working this Feature, Will Available soon...")
 
