@@ -389,7 +389,7 @@ async def sticker_group(bot, message):
       else : 
             await message.reply_text("Unexpected Error Occurred !!! \n Contact @BugHunterBots")
 
-   except 403 CHAT_SEND_STICKERS_FORBIDDE as error :
+   except [403 CHAT_SEND_STICKERS_FORBIDDE] as error:
             await message.reply("@admins , \nAs per Your Group Permission Members of This Group Can't send Stickers to this Chat (`I'm a Member, Not an Admin`) .\n**To Solve this Issue add me as Admin Or Give permission to send stickers in the Chat** \n\n\n ©@BugHunterBots")
 
 
