@@ -18,8 +18,9 @@ bughunter0 = Client(
 
 START_STRING_PRIVATE = """ Hi {}, I'm Member Sticker Bot. 
  I Can Send Relevant Thankyou Sticker in Groups and Channel
-
-Nothing to Do here !! 😪
+\n All Member count doesn't return a sticker, so I will send a Thank you message for the count which have no sticker,
+This message will be deleted after 10 second. \n
+Nothing to Do here !! 😕
 **ADD ME TO A GROUP THEN TRIGGER ME**
 """
 
@@ -387,8 +388,9 @@ async def sticker_group(bot, message):
                     await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
       
       else : 
-            await message.reply_text("Unexpected Error Occurred !!! \n Contact @BugHunterBots")
-
+            txt = await message.reply_text(f"We are Happy to Have you as Our {count} th Member")
+            time.sleep(10)
+            await txt.delete()
    except CHAT_SEND_STICKERS_FORBIDDE as error:
             await message.reply("@admins , \nAs per Your Group Permission Members of This Group Can't send Stickers to this Chat (`I'm a Member, Not an Admin`) .\n**To Solve this Issue add me as Admin Or Give permission to send stickers in the Chat** \n\n\n ©@BugHunterBots")
 
