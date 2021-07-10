@@ -407,7 +407,7 @@ async def ping(bot, message):
  await txt.edit("I will Send ThankYou / Greetings Stickers in Group Automatically")
  time.sleep(1)
  chat_id = str(message.chat.id)
- str1 = await bot.send_sticker(chat_id,"CAACAgUAAxkBAALDkmDfFenLkQH\_ZI9aJqlPg3C6jfEHAAIuAwAC4aMxVoSmRmZmbGnfIAQ")
+ str1 = await bot.send_sticker(chat_id,"CAACAgUAAxkBAAIFvWDd5xzyf5AhAkh686y-04RXf-WFAAIyAwACtjQ5Vl_xGgHnFbS4HgQ")      
  time.sleep(2)
  str2 = await bot.send_sticker(chat_id,"CAACAgUAAxkBAAIFxmDd6fvsd9J965KmeOAv2k4Ucc9RAAKtAgAClAABOVaRUSMWFV2eTR4E")   
  time.sleep(2)
