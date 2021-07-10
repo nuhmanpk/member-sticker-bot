@@ -389,7 +389,7 @@ async def sticker_group(bot, message):
       
       else : 
             txt = await message.reply_text(f"**We are Happy to Have you as Our** `{count} th Member`")
-            time.sleep(10)
+            time.sleep(30)
             await txt.delete()
    except Exception as error:
             await message.reply("@admins , \nAs per Your Group Permission Members of This Group Can't send Stickers to this Chat (`I'm a Member, Not an Admin`) .\n**To Solve this Issue add me as Admin Or Give permission to send stickers in the Chat** \n\n\n ©@BugHunterBots")
