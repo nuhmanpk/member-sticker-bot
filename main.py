@@ -400,7 +400,7 @@ async def sticker_channel(bot, message):
  await message.reply("We are working this Feature, Will Available soon...")
 
 
-@bughunter0.on_message(filters.command(["how"]) | filters.command(["help"]))
+@bughunter0.on_message(filters.command(["how"]))
 async def how(bot, message):
  txt = await message.reply("Still Wondering How I Work ?😕")
  time.sleep(2)
@@ -428,6 +428,13 @@ async def how(bot, message):
  await txt.edit("**My Sticker Collection include these packs**\n◆ [MemberStickerBot](https://t.me/addstickers/MemberStickerBot)\n◆ [AllChannels](https://t.me/addstickers/AllChannels)\n◆ [ThankYouMembers](https://t.me/addstickers/DownloadStics_ThankYouMembers)\n\n`Join My Updates Channel Here` @BugHunterBots")
  time.sleep(60)
  await txt.delete()
+ 
+
+
+@bughunter0.on_message(filters.command(["help"]))
+async def help(bot, message):
+ chat_id = str(message.chat.id)
+ await bot.send_sticker(chat_id,"CAACAgIAAxkBAAEEDq1g6Y5LLm2DtFwCV2pPNCddwwZQHgAC6AkAAowucAABsFGHedLEzeUgBA")  
  
 
 bughunter0.run()
