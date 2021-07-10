@@ -399,5 +399,29 @@ async def sticker_group(bot, message):
 async def sticker_channel(bot, message):
  await message.reply("We are working this Feature, Will Available soon...")
 
+
+@bughunter0.on_message(filters.command(["how"]))
+async def ping(bot, message):
+ txt = await message.reply("Still Wondering How I Work ?")
+ time.sleep(2)
+ await txt.edit("I will Send ThankYou / Greetings Stickers in Group Automatically")
+ time.sleep(1)
+ str1 = await bot.send_sticker(chat_id,"CAACAgUAAxkBAALDkmDfFenLkQH\_ZI9aJqlPg3C6jfEHAAIuAwAC4aMxVoSmRmZmbGnfIAQ")
+ time.sleep(2)
+ str2 = await bot.send_sticker(chat_id,"CAACAgUAAxkBAAIFxmDd6fvsd9J965KmeOAv2k4Ucc9RAAKtAgAClAABOVaRUSMWFV2eTR4E")   
+ time.sleep(2)
+ str3 = await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIEwGDcEUGNjB5TmELSqjjMb_wciIx-AAKWAQACW9YqGG_7RELWmJBFHgQ")
+ time.sleep(2)
+ str4 = await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFZmDd4aVplUsNVhTHmgRMQ6W9_WJ6AAKUAgACb8FkFIxl1Y3Zh7DUHgQ")
+ await txt.edit("This Is what I can Do, As an Admin You can Sit Back And Enjoy!!")   
+ await str1.delete()      
+ time.sleep(3)    
+ await str2.delete() 
+ time.sleep(3)
+ await str3.delete()
+ time.sleep(3)
+ await str4.delete()
+ time.sleep(2)
+ await txt.edit("Join My Updates Channel Here @BugHunterBots")
 bughunter0.run()
 
