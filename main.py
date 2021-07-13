@@ -428,8 +428,7 @@ async def how(bot, message):
  await txt.edit("This Is what I can Do, As an Admin You can Sit Back And Enjoy!!")   
  time.sleep(2)
  await txt.edit("**My Sticker Collection include these packs**\n◆ [MemberStickerBot](https://t.me/addstickers/MemberStickerBot)\n◆ [AllChannels](https://t.me/addstickers/AllChannels)\n◆ [ThankYouMembers](https://t.me/addstickers/DownloadStics_ThankYouMembers)\n\n`Join My Updates Channel Here` @BugHunterBots")
- time.sleep(500)
- await txt.delete()
+ 
  
 
 
