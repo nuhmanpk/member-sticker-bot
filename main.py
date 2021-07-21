@@ -31,15 +31,15 @@ START_STRING_GROUP = """ **I need Admin rights to Send sticker in {}**
 """
 
 ABOUT = """
-● **BOT:** `Member Sticker BOT` \n
-● **AUTHOR :** [bughunter0](https://t.me/bughunter0) \n
-● **SERVER :** `Heroku` \n
-● **LIBRARY :** `Pyrogram` \n
-● **SOURCE :** [BugHunterBots](https://t.me/bughunterbots) (Not Available Now) \n
-● **LANGUAGE :** `Python 3.9` \n
+● **BOT:** `Member Sticker BOT` 
+● **AUTHOR :** [bughunter0](https://t.me/bughunter0) 
+● **SERVER :** `Heroku` 
+● **LIBRARY :** `Pyrogram` 
+● **SOURCE :** [BugHunterBots](https://t.me/BugHunterBots/87) 
+● **LANGUAGE :** `Python 3.9` 
 """
 HELP = """
-● Still Wonder How I Work ? \n
+● Still Wonder How I Work ? 
 ● Use /How get a Full Brief
 
 """
