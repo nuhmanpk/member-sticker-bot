@@ -30,6 +30,20 @@ START_STRING_GROUP = """ **I need Admin rights to Send sticker in {}**
 
 """
 
+ABOUT = """
+● **BOT:** `Member Sticker BOT` \n
+● **AUTHOR :** [bughunter0](https://t.me/bughunter0) \n
+● **SERVER :** `Heroku` \n
+● **LIBRARY :** `Pyrogram` \n
+● **SOURCE :** [BugHunterBots](https://t.me/bughunterbots) (Not Available Now) \n
+● **LANGUAGE :** `Python 3.9` \n
+"""
+HELP = """
+● Still Wonder How I Work ? \n
+● Use /How get a Full Brief
+
+"""
+
 
 CHANNEL_BUTTON = InlineKeyboardMarkup(
         [[
@@ -75,7 +89,7 @@ async def cb_data(bot, update):
         )
     else:
         await update.message.edit_text(
-            text=START_STR.format(update.from_user.mention),
+            text=START_STRING_PRIVATE.format(update.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=START_BUTTON
         )
@@ -114,7 +128,7 @@ async def ping(bot, message):
 @bughunter0.on_message(filters.new_chat_members & filters.group)
 async def sticker_group(bot, message):
    try:
-      chat_id = str(message.chat.id)
+      chat_id = int(message.chat.id)
       count = await bughunter0.get_chat_members_count(chat_id)
       if count == 3:
                     await bot.send_sticker(chat_id,"CAACAgUAAxkBAAIFKmDd2r4NMyGSyWgVu2v-fQxvJxBxAAL1AgACufE4VgHHxPJeyWOKHgQ")
