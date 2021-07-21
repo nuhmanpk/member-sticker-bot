@@ -35,8 +35,9 @@ ABOUT = """
 ● **AUTHOR :** [bughunter0](https://t.me/bughunter0) 
 ● **SERVER :** `Heroku` 
 ● **LIBRARY :** `Pyrogram` 
-● **SOURCE :** [BugHunterBots](https://t.me/BugHunterBots/87) 
 ● **LANGUAGE :** `Python 3.9` 
+● **SOURCE :** [BugHunterBots](https://t.me/BugHunterBots/93) 
+
 """
 HELP = """
 ● Still Wonder How I Work ? 
