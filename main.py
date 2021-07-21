@@ -26,7 +26,7 @@ Nothing to Do here !! 😕
 
 START_STRING_GROUP = """ **I need Admin rights to Send sticker in {}**
 
-`You Must Join My Updates Channel for using me`
+`Join My Updates Channel for Getting more familiar with me`
 
 """
 
@@ -41,12 +41,50 @@ ADDME_BUTTON = InlineKeyboardMarkup(
         InlineKeyboardButton('↗ ADD ME TO A GROUP ↗', url="t.me/member_sticker_bot?startgroup=true")
         ]]
     )
+START_BUTTON = InlineKeyboardMarkup(
+        [[
+        InlineKeyboardButton('ABOUT',callback_data='cbabout'),
+        InlineKeyboardButton('HELP',callback_data='cbhelp')
+        ],
+        [
+        InlineKeyboardButton('↗ Join Here ↗', url='https://t.me/BughunterBots'),
+        ],
+        [InlineKeyboardButton('↗ ADD ME TO A GROUP ↗', url="t.me/member_sticker_bot?startgroup=true")
+        ]]
+        
+    )
+CLOSE_BUTTON = InlineKeyboardMarkup(
+        [[
+        InlineKeyboardButton('Back',callback_data='cbclose'),
+        ]]
+    )
+
+@bughunter0.on_callback_query() # callbackQuery()
+async def cb_data(bot, update):  
+    if update.data == "cbhelp":
+        await update.message.edit_text(
+            text=HELP,
+            reply_markup=CLOSE_BUTTON,
+            disable_web_page_preview=True
+        )
+    elif update.data == "cbabout":
+        await update.message.edit_text(
+            text=ABOUT,
+            reply_markup=CLOSE_BUTTON,
+            disable_web_page_preview=True
+        )
+    else:
+        await update.message.edit_text(
+            text=START_STR.format(update.from_user.mention),
+            disable_web_page_preview=True,
+            reply_markup=START_BUTTON
+        )
 
 
 @bughunter0.on_message(filters.command(["start"]) & filters.private)
 async def start_private(bot, update):
     text = START_STRING_PRIVATE.format(update.from_user.mention)
-    reply_markup = ADDME_BUTTON
+    reply_markup = START_BUTTON
     await update.reply_text(
         text=text,
         disable_web_page_preview=True,
@@ -391,8 +429,7 @@ async def sticker_group(bot, message):
             txt = await message.reply_text(f"**We are Happy to Have you as Our** `{count} th Member`")
            
            
-            time.sleep(30)
-            await txt.delete()
+            
    except Exception as error:
             await message.reply("@admins , \nAs per Your Group Permission Members of This Group Can't send Stickers to this Chat (`I'm a Member, Not an Admin`) .\n**To Solve this Issue add me as Admin Or Give permission to send stickers in the Chat** \n\n\n ©@BugHunterBots")
 
