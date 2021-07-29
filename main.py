@@ -454,34 +454,7 @@ async def sticker_channel(bot, message):
  await message.reply("We are working this Feature, Will Available soon...")
 
 
-@bughunter0.on_message(filters.command(["how"]))
-async def how(bot, message):
- txt = await message.reply("Still Wondering How I Work ?😕")
- time.sleep(2)
- await txt.edit("I will Send ThankYou / Greetings Stickers in Group Automatically")
- time.sleep(3)
- chat_id = str(message.chat.id)
- str1 = await bot.send_sticker(chat_id,"CAACAgUAAxkBAAIFvWDd5xzyf5AhAkh686y-04RXf-WFAAIyAwACtjQ5Vl_xGgHnFbS4HgQ")  
- await txt.edit("This Sticker is Send When The Group count Hit 20 Members 👇")    
- time.sleep(5)
- await str1.delete()
- str2 = await bot.send_sticker(chat_id,"CAACAgUAAxkBAAIFxmDd6fvsd9J965KmeOAv2k4Ucc9RAAKtAgAClAABOVaRUSMWFV2eTR4E")   
- await txt.edit("This Sticker is Send When The Group count Hit 999 Members 👇")    
- time.sleep(5)
- await str2.delete()
- str3 = await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIEwGDcEUGNjB5TmELSqjjMb_wciIx-AAKWAQACW9YqGG_7RELWmJBFHgQ")
- await txt.edit("This Sticker is Send When The Group count Hit 625 Members 👇")    
- time.sleep(5)
- await str3.delete()
- str4 = await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFZmDd4aVplUsNVhTHmgRMQ6W9_WJ6AAKUAgACb8FkFIxl1Y3Zh7DUHgQ")
- await txt.edit("This Sticker is Send When The Group count Hit 7000 Members 👇")    
- time.sleep(5)
- await str4.delete()
- await txt.edit("This Is what I can Do, As an Admin You can Sit Back And Enjoy!!")   
- time.sleep(2)
- await txt.edit("**My Sticker Collection include these packs**\n◆ [MemberStickerBot](https://t.me/addstickers/MemberStickerBot)\n◆ [AllChannels](https://t.me/addstickers/AllChannels)\n◆ [ThankYouMembers](https://t.me/addstickers/DownloadStics_ThankYouMembers)\n\n`Join My Updates Channel Here` @BugHunterBots")
- 
- 
+
 
 
 @bughunter0.on_message(filters.command(["help"]))
