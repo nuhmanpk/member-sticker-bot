@@ -8,6 +8,7 @@ A telegram bot Which sends Thank You Sticker to Members in channel and Group at 
 <img src="https://telegra.ph/file/5e50d3d4954ce72cf96ef.jpg" alt="9.5kMemberSticker.png">
 <img src="https://telegra.ph/file/5cb7142892e3bff1b84b3.jpg" alt="25kMemberSticker.png">
 </center>
+
 # Current Sticker Support
  
 1 Lakh (100k) Members
