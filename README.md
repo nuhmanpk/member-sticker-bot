@@ -13,3 +13,10 @@ A telegram bot Which sends Thank You Sticker to Members in channel and Group at 
 [Pyrogram](https://pyrogram.org) <br>
 [Pyrogram Inn](https://t.me/pyrogramchat) <br>
 [My Self](https://github.com/bughunter0) for Creating [Sticker BoT](https://github.com/BugHunterCodeLabs/Sticker-Bot) to Return Json
+
+# Donate Me Here
+[BUY ME A COFFEE](https://paytm.me/fZ-PsaK)
+[FRACTION OF MY INTERNET CHARGE](https://paytm.me/p-tPE0l)
+[MY MONTHLY INTERNET CHARGE](https://paytm.me/yoB-s0a)
+[TOKEN OF APPRECIATION](https://paytm.me/8sRT-FA)
+[NOT RECOMMENDED](https://paytm.me/A-iN96A)
