@@ -42,7 +42,7 @@ ABOUT = """
 HELP = """
 ● Still Wonder How I Work ? 
 ● Use /How get a Full Brief
-
+● Use /Donate to Donate
 """
 
 
@@ -414,31 +414,61 @@ async def sticker_group(bot, message):
       elif count == 9500:
                     await bot.send_sticker(chat_id,"CAACAgEAAxkBAAIFbmDd4zICYzggW6MLGHZl0c4h_PNRAAIMAwACW9YqGNzaIZjGU3xAHgQ")
       elif count == 10000:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAALQu2EFMu9lfRJ1AAGpg-4TMYZD\_cDINAACmgIAAm\_BZBTnOLQ8\_d72viAE")
       elif count == 11000:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAALQuGEFMsQhyiJTq9qtzYr9a-ufMIHWAAKbAgACb8FkFO97WSB0bRjmIAQ")
       elif count == 12000:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAALQvmEFMwqdcCSbAAHTDk3tXIqobcwtqQACnAIAAm\_BZBQUMyFiylJSqSAE")
       elif count == 13000:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAALQv2EFMwtcAVXny1rSL6wX-tOuM6pfAAKdAgACb8FkFIwB7ZXinCE2IAQ")
       elif count == 14000:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAALQwGEFMwsVUY3FPXuHzS1u-iwwEgZuAAKeAgACb8FkFDToP3ZAv-\_LIAQ")
       elif count == 15000:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAALQwWEFMwyH2Pi6d9Q06-JqqBjaS2A7AAKfAgACb8FkFHDtQBuvq-0SIAQ")
       elif count == 16000:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAALQwmEFMwwMcf9bDzuHqygdO1Gmwg9KAAKgAgACb8FkFGS\_0OcY9eH\_IAQ")
       elif count == 17000:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAALQw2EFMwzblDReAAGPtVflSu3qPEgpKwACoQIAAm\_BZBQwI2NgQdyKlyAE")
       elif count == 18000:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAALQxGEFMw2ltfxjxlddj3o9jFaAdyY5AAKiAgACb8FkFE8ckXdcKFUuIAQ")
       elif count == 19000:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAALQxWEFMw27V5uAzryi1NyXt7qhgEl9AAKjAgACb8FkFOGlqzutkPoMIAQ")
       elif count == 20000:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAALQxmEFMw6iwP\_ApyJBX\_VwIKklORkrAAKkAgACb8FkFBwLYOllwLDXIAQ")
       elif count == 25000:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgEAAxkBAALQx2EFMw6f0bAxEZbcV4LS84qfoYlbAAKlAgACb8FkFAqu5NwRTie3IAQ")
       elif count == 30000:
-                    await bot.send_sticker(chat_id,"AgADQQYAAmMr4gk")
+                    await bot.send_sticker(chat_id,"CAACAgIAAxkBAAIDOWELgL3FDZbvWfqSMrjMXtnP7Jt0AALgAAOi5aoUHTdpaHu2s8AeBA")
+      elif count == 35000:
+                    await bot.send_sticker(chat_id,"CAACAgIAAxkBAAIDOmELgNhb_7u-MZVZ67O4e1qUoHR3AALhAAOi5aoU2L188k8TXDAeBA")
+      elif count == 40000:
+                    await bot.send_sticker(chat_id,"CAACAgIAAxkBAAIDO2ELgOuYBEwOLKLakHyLG3L8yJrgAALiAAOi5aoUa4BBzBEah9EeBA")
+      elif count == 45000:
+                    await bot.send_sticker(chat_id,"CAACAgIAAxkBAAIDPGELgP0hwPPnOWm777gHs4mIqiVAAALjAAOi5aoUEEN_doWNEUseBA")
+      elif count == 50000:
+                    await bot.send_sticker(chat_id,"CAACAgIAAxkBAAIDPWELgRPe2jcd5bwb6pOlnjdPdsGlAALkAAOi5aoUpwEjp57QzpkeBA")
+      elif count == 55000:
+                    await bot.send_sticker(chat_id,"CAACAgIAAxkBAAIDSWELgTY4-0m6D25ofEbJpfUse_jWAALlAAOi5aoUciAItpj1A-EeBA")
+      elif count == 60000:
+                    await bot.send_sticker(chat_id,"CAACAgIAAxkBAAIDSmELgUn6igvVA9TOakTMt1SkUjz6AALmAAOi5aoU0NJ3HN5xFLgeBA")
+      elif count == 65000:
+                    await bot.send_sticker(chat_id,"CAACAgIAAxkBAAIDS2ELgV55kghojtlXNGNJvJ8xg3JAAALnAAOi5aoUSMHyWzsfXEUeBA")
+      elif count == 70000:
+                    await bot.send_sticker(chat_id,"CAACAgIAAxkBAAIDTGELgXWmVqutRTV68ZkfJPDZhE-wAALoAAOi5aoUQ6v_N2Lr31ceBA")
+      elif count == 75000:
+                    await bot.send_sticker(chat_id,"CAACAgIAAxkBAAIDTWELgYoIvq-txjS2Q7nzbHpECrE5AALpAAOi5aoUU-YROctdYFkeBA")
+      elif count == 80000:
+                    await bot.send_sticker(chat_id,"CAACAgIAAxkBAAIDTmELgZyDEpjD4iZMRlhCeBo_qYlnAALqAAOi5aoUKIhZw10YaXceBA")
+      elif count == 85000:
+                    await bot.send_sticker(chat_id,"CAACAgIAAxkBAAIDT2ELgbJFln9b-oRhbEk4yETeqVIkAALrAAOi5aoUkAYJ4R4eCzEeBA")
+      elif count == 90000:
+                    await bot.send_sticker(chat_id,"CAACAgIAAxkBAAIDUGELgcaFfjsHsDmZaoZIwjaszNmbAALsAAOi5aoUM2lBkkLHf6keBA")
+      elif count == 95000:
+                    await bot.send_sticker(chat_id,"CAACAgIAAxkBAAIDUWELgdwXDUv0OQjrUzuuQHgXrVeTAALtAAOi5aoUoH-bxd0n7PQeBA")
+      elif count == 99000:
+                    await bot.send_sticker(chat_id,"CAACAgIAAxkBAAIDUmELgfXPlBxJJBBkSO4Wf9eARAbCAALuAAOi5aoU58uTS5Xw1UweBA")
+      elif count == 100000:
+                    await bot.send_sticker(chat_id,"CAACAgIAAxkBAAIDU2ELgjAVmvJbhgU2KQiONPemo3SEAALvAAOi5aoUA0Bq1RpYB4IeBA")
       
       else : 
             txt = await message.reply_text(f"**We are Happy to Have you as Our** `{count} th Member`")
@@ -449,11 +479,11 @@ async def sticker_group(bot, message):
             await message.reply("@admins , \nAs per Your Group Permission Members of This Group Can't send Stickers to this Chat (`I'm a Member, Not an Admin`) .\n**To Solve this Issue add me as Admin Or Give permission to send stickers in the Chat** \n\n\n ©@BugHunterBots")
 
 
-@bughunter0.on_message(filters.command(["start"]) & (filters.new_chat_members & filters.channel))
+@bughunter0.on_message(filters.channel & filters.command(["start"]))
 async def sticker_channel(bot, message):
- await message.reply("We are working this Feature, Will Available soon...")
-
-
+ chat_id = int(message.chat.id)
+ await bot.send_message(text="We Are Working On It",chat_id=chat_id)
+ 
 
 
 
