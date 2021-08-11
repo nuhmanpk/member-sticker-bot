@@ -18,9 +18,11 @@ A telegram bot Which sends Thank You Sticker to Members in channel and Group at 
 [Pyrogram Inn](https://t.me/pyrogramchat) <br>
 [My Self](https://github.com/bughunter0) for Creating [Sticker BoT](https://github.com/BugHunterCodeLabs/Sticker-Bot) to Return Json
 
-# Donate Me Here
-[BUY ME A COFFEE](https://paytm.me/fZ-PsaK) <br> <br>
-[FRACTION OF MY INTERNET CHARGE](https://paytm.me/p-tPE0l) <br> <br>
-[MY MONTHLY INTERNET CHARGE](https://paytm.me/yoB-s0a) <br> <br>
-[TOKEN OF APPRECIATION](https://paytm.me/8sRT-FA) <br> <br>
-[NOT RECOMMENDED](https://paytm.me/A-iN96A)
+
+## 💰 Support Me
+ Consider my effort of adding These much String of sticker, Took several weeks to Complete this Project
+
+- <a href="https://paytm.me/fZ-PsaK"><img src="https://img.shields.io/badge/Paytm-Donate-blue"/></a>
+- <a href="https://paytm.me/p-tPE0l"><img src="https://img.shields.io/badge/Paytm-Donate-blue"/></a>
+- <a href="https://paytm.me/yoB-s0a"><img src="https://img.shields.io/badge/Paytm-Donate-blue"/></a>
+- <a href="https://ko-fi.com/nuhmanpk" class="padded"><img height="30" style="border:0px;height:30px;" align="left" alt="ko-fi" src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0" /></a>
