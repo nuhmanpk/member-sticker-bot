@@ -493,5 +493,16 @@ async def help(bot, message):
  await bot.send_sticker(chat_id,"CAACAgIAAxkBAAEEDq1g6Y5LLm2DtFwCV2pPNCddwwZQHgAC6AkAAowucAABsFGHedLEzeUgBA")  
  
 
+@
+@bughunter0.on_message(filters.command(["broadcast"]) & filters.user(778307700))
+async def help(bot, message):
+   to_send= message.reply_to_message
+   for chatid in range(0,100):
+     message = f"https://t.me/c/1559719423/{chatid}"
+     chat_id= message.text
+     await message.reply_text(chat_id)
+  
+
+
 bughunter0.run()
 
