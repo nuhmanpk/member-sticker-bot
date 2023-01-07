@@ -128,6 +128,28 @@ async def ping(bot, message):
 
 @bughunter0.on_message(filters.new_chat_members & filters.group)
 async def sticker_group(bot, message):
+# prefer this change ratherthan 500 if,elif condition
+"""
+sticker_mapping = {
+    3: "CAACAgUAAxkBAAIFKmDd2r4NMyGSyWgVu2v-fQxvJxBxAAL1AgACufE4VgHHxPJeyWOKHgQ",
+    5: "CAACAgUAAxkBAAID32DbTvj4x1EqZGtgqFd0ZTwmpgUqAAKQAgACCoU4Vh4T1CeHhp9dHgQ",
+    7: "CAACAgUAAxkBAAID4mDbTx5XeQc2RtMFW6exz6Mt34OBAALdAgAC7f84ViojLrLihZXFHgQ",
+    10: "CAACAgUAAxkBAAEEDepg6VMTeKH7C0yuPmeqdxAhPIjTQgACLgMAAuGjMVaEpkZmZmxp3yAE",
+    20: "CAACAgUAAxkBAAIFvWDd5xzyf5AhAkh686y-04RXf-WFAAIyAwACtjQ5Vl_xGgHnFbS4HgQ",
+    25: "CAACAgEAAxkBAALAcWDbNvSOrJU6oRg29s6IYp0zT04PAAJ1AgACb8FkFDCUuHcEvpgrIAQ",
+    30: "CAACAgEAAxkBAALABWDbNB7gPjkDzwtQ6Cs5nvhb0wwZAAJzAQACW9YqGMglMndHeNbkIAQ",
+    35: "CAACAgUAAxkBAALAH2DbNKfjQOZnjBt6v7Ec2gQiw73XAALDAgACdhE4VlXq3LxwIYXVIAQ",
+    40: "CAACAgEAAxkBAALABmDbNB4JXht6BxaWYeZBEbrCXTm7AAJ1AQACW9YqGAqMjpiJaz52IAQ",
+    nth-count:"nth-stickerid of Sticker"
+}
+async def sticker_group(bot, message):
+    chat_id = int(message.chat.id)
+    count = await bughunter0.get_chat_members_count(chat_id)
+    if count in sticker_mapping:
+        await bot.send_sticker(chat_id, sticker_mapping[count])
+"""
+# recommend to follow the above procedure, If you feel kind, fork change the 500 elif and add a pull
+
    try:
       chat_id = int(message.chat.id)
       count = await bughunter0.get_chat_members_count(chat_id)
