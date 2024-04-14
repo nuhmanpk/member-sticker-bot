@@ -1,3 +1,5 @@
+# /usr/bin/nuhman/bughunter0 
+
 import os 
 from os import error
 import logging
